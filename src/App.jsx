@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Data from './components/Data'
+import background from "../Img/585516.png"
 
 function App() {
   
@@ -7,7 +8,12 @@ function App() {
 
   return (
     <>
-    <div className="ms-5 mt-5 me-5">
+    <div style={{backgroundImage: `url(${background})`,
+                height:"500px",
+                backgroundSize:"cover",
+                }} 
+         className="ms-5 mt-5 me-5"
+         >
       <h1 className='fw-lighter'>
       Sheikah Slate	
       </h1>

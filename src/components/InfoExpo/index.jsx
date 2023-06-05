@@ -40,7 +40,18 @@ useEffect(
 
     return(
         <>
-            <h4 className="fw-lighter">Database</h4>
+            <h4 className="fw-lighter">Hyrule Compendium:</h4>
+            {
+            imageList.length === 0 && (
+            <div>
+            <br />
+            <p className="fw-lighter">
+            Try to add a category...
+            </p>
+            </div>
+            )
+             }
+
                 {
                 imageList.map((item)=>(
                     <div>
