@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Data from './components/Data'
-import background from "../Img/585516.png"
+import background from "../Img/585518.png"
 
 function App() {
   

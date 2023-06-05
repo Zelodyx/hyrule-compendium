@@ -39,7 +39,7 @@ useEffect(
 
 
     return(
-        <>
+        <>  <br/>
             <h4 className="fw-lighter">Hyrule Compendium:</h4>
             {
             imageList.length === 0 && (
@@ -51,7 +51,8 @@ useEffect(
             </div>
             )
              }
-
+                <div>
+                <br/>
                 {
                 imageList.map((item)=>(
                     <div>
@@ -78,7 +79,8 @@ useEffect(
                     </div>
                     
                 ))
-                }   
+                }
+                </div>
 
 
 
